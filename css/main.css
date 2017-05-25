@@ -15,3 +15,7 @@ h1 {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+#navigation ul li a {
+  color: #000;
+}
