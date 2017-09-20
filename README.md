@@ -1,1 +1,1 @@
-# mcwarman.github.io [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# mcwarman.github.io ![Tag](https://img.shields.io/github/tag/mcwarman/mcwarman.github.io.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
