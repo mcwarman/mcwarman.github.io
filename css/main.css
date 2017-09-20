@@ -1,9 +1,41 @@
-h1 {
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
   font-family: "Open Sans", sans-serif;
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+}
+
+h1 {
   font-size: 48px;
   font-weight: normal;
   margin: 10px;
+}
+#content {
+   position: absolute;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+}
+#avatar img {
+  height: 180px;
+  border-radius: 100%;
+  border: 3px solid white;
+  margin-top:10px;
 }
 #navigation ul{
   text-align: center;
@@ -14,13 +46,13 @@ h1 {
   list-style: none;
   display: inline-block;
   border-radius: 100%;
-  border: 2px solid #000;
+  border: 1px solid #FFF;
   height:50px;
   width: 50px;
   margin: 8px;
 }
 #navigation ul li:hover {
-  color: #000;
+  color: #FFF;
   text-decoration: none;
   -webkit-transition: 500ms;
   -moz-transition: 500ms;
@@ -28,7 +60,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.25);
 }
 #navigation ul li a {
-  color: #000;
+  color: #FFF;
 }
 #navigation ul li a i {
   padding: 9px;
