@@ -1,3 +1,6 @@
+---
+permalink: /
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,23 +19,26 @@
     <![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
     <link href="css/main.css" rel="stylesheet" type="text/css" />
-    <title>Matthew Warman - warman.io</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   </head>
   <body>
     <div id="content">
-      <div id="avatar"><img src="https://avatars2.githubusercontent.com/u/7236500"/></div>
-      <h1>Matthew Warman</h1>
-      <h3>Technical Swiss Army Knife</h3>
+      <div id="avatar"><img src="{{ site.avatar_img_path }}"/></div>
+      <h1>{{ site.name }}</h1>
+      <h3>{{ site.description }}</h3>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script src="https://use.fontawesome.com/86424f27f1.js"></script>
       <div class="separator" />
       <div id="navigation">
+        {% assign links = site.data.links %}
         <ul>
+        {% for link in links %}
           <li>
-            <a href="https://github.com/mcwarman" aria-label="Link to my GitHub profile"><i class="fa fa-github fa-2x" aria-hidden="true" title="GitHub"></i></a>
+            <a href="{{link[1].url}}" aria-label="{{link[1].label}}"><i class="fa {{link[1].fa-icon}} fa-2x" aria-hidden="true" title="{{link[1].title}}"></i></a>
           </li>
+        {% endfor %}
         </ul>
       </div>
     </div>

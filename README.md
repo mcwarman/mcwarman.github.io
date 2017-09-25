@@ -2,7 +2,7 @@
 
 ## License
 
-This site includes third party open source components, which has its own license:
+This site includes third party open source component, which has its own license:
 * [DashingCode/front-cover](https://github.com/dashingcode/front-cover) - [DashingCode-LICENSE.txt](etc/DashingCode-LICENSE.txt).
 
 Background images:

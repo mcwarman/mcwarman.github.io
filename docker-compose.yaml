@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mcwarman.github.io:
+    image: ricalo/jekyll
+    container_name: mcwarman.github.io
+    hostname: jekyll
+    ports:
+      - '4000:4000'
+    volumes:
+      - .:/usr/src/app
+    command: [ "server", "--config", "_config.yaml,_config_dev.yaml", "--watch", "--force_polling" , "--drafts"]
