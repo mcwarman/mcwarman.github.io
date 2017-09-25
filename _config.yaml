@@ -1,0 +1,11 @@
+# Site settings
+name: "Matthew Warman"
+title: "Matthew Warman - warman.io"
+description: "Technical Swiss Army Knife"
+url: "http://warman.io"
+
+avatar_img_path: "https://avatars2.githubusercontent.com/u/7236500"
+
+#Build settings 
+destination: _site
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'docker-compose.yaml', '.gitignore', 'etc', 'CNAME']
