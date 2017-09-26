@@ -3,3 +3,8 @@ github:
   label: Link to my GitHub profile
   url: https://github.com/mcwarman
   fa-icon: fa-github
+linkedin:
+  title: LinkedIn
+  label: Link to my LinkedIn profile
+  url: https://www.linkedin.com/in/matthewwarman/
+  fa-icon: fa-linkedin
