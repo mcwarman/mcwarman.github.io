@@ -8,3 +8,8 @@ linkedin:
   label: Link to my LinkedIn profile
   url: https://www.linkedin.com/in/matthewwarman/
   fa-icon: fa-linkedin
+stackoverflow:
+  title: Stack Overflow
+  label: Link to my Stack Overflow profile
+  url: https://stackoverflow.com/users/1600422/matthew-warman
+  fa-icon: fa-stack-overflow
