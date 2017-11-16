@@ -13,3 +13,8 @@ stackoverflow:
   label: Link to my Stack Overflow profile
   url: https://stackoverflow.com/users/1600422/matthew-warman
   fa-icon: fa-stack-overflow
+publickey:
+  title: GPG Public Key
+  label: Link to my GPG Public Key
+  url: https://raw.githubusercontent.com/mcwarman/public-keys/master/mcwarman-pgp-public-key.asc
+  fa-icon: fa-key
