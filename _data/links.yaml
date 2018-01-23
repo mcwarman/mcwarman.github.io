@@ -1,3 +1,8 @@
+blog:
+  title: Blog
+  label: Link to my Blog
+  url: /blog
+  fa-icon: fa-commenting-o
 github:
   title: GitHub
   label: Link to my GitHub profile
