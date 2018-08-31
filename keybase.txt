@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mcwarman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://warman.io
+  * I am mcwarman (https://keybase.io/mcwarman) on keybase.
+  * I have a public key ASDLxJxfo_rAM0v3n3EmM4qrZMUGlre6V-7_DH0HBJTeIgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cbc49c5fa3fac0334bf79f7126338aab64c50696b7ba57eeff0c7d070494de220a",
+      "host": "keybase.io",
+      "kid": "0120cbc49c5fa3fac0334bf79f7126338aab64c50696b7ba57eeff0c7d070494de220a",
+      "uid": "4edebb0da0149418d4a451b6d34a8c19",
+      "username": "mcwarman"
+    },
+    "merkle_root": {
+      "ctime": 1535746668,
+      "hash": "dfd8ea96e5dd6ef5abc31d2f950d5d8741ae9d30c3c0fcdfaa74658958f070f51e3d8c2abfc83da36e45a5c07cd6e9b506534946a2c930863dda6fa336d5a61b",
+      "hash_meta": "19fb6efded8aa46cd38c8ec06a39fa7384a7a63af4cad4ceccf586686e8f4f22",
+      "seqno": 3546026
+    },
+    "service": {
+      "entropy": "ajDM9hyC5ItXrgh2kRkl7TUt",
+      "hostname": "warman.io",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.1"
+  },
+  "ctime": 1535746681,
+  "expire_in": 504576000,
+  "prev": "5471978a9a6abaa10ead3686dd6f221b656eedfdfe427de2d462f903e0248672",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgy8ScX6P6wDNL959xJjOKq2TFBpa3ulfu/wx9BwSU3iIKp3BheWxvYWTESpcCBsQgVHGXippquqEOrTaG3W8iG2Vu7f3+Qn3i1GL5A+AkhnLEIFW68z605mU8o4SxZlIbdNo8WgpJMc79Ie8+dU3M6beJAgHCo3NpZ8RAUfw0puSQlteKmQKgH0ZDmVGjgDz5A+9IsZOmoE/byd612PusrYLtANijYDXQotCKpc0YVEIBbLT3dNXmjmXRDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE+2KubFlSUkYE/OAeqO79x/MBbXf62SdWC5S/wIn2MIo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mcwarman
+
+==================================================================
